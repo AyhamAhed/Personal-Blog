@@ -89,3 +89,42 @@ body, html {
 .box1, .box2 {
     padding: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    
+    .search-icon {
+        margin-top: 10px;
+    }
+    
+    .nested-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .nested-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+    
+    .nested-item {
+        padding: 10px;
+        border-width: 3px;
+    }
+    
+    .footer {
+        padding: 5px;
+    }
+}
