@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 20px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.nested-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #d9d7da;
+    box-sizing: border-box;
+}
+
+.nested-item:hover {
+    transition: transform 0.35s ease;
+    transform: scale(1.03);
+}
+
+.blue-text {
+    color: blue;
+}
+
+.design-text {
+    color: rgb(27, 250, 27);
+}
+
+.example-post, .date, .explanation, .continue-link {
+    margin-top: 10px;
+}
+
+.box1, .box2 {
+    padding: 20px;
+}

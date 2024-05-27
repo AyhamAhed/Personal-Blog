@@ -1,0 +1,40 @@
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablet and smaller screens */
+    .header {
+        flex-direction: column;
+    }
+    
+    .search-icon {
+        margin-top: 10px;
+    }
+    
+    .nested-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .nested-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for mobile screens */
+    .header {
+        padding: 10px;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+    
+    .nested-item {
+        padding: 10px;
+        border-width: 3px;
+    }
+    
+    .footer {
+        padding: 5px;
+    }
+}

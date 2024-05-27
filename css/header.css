@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-name {
+    margin: 0;
+}
+
+.search-icon {
+    margin-top: 20px;
+}
